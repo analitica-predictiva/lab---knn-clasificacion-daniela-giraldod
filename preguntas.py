@@ -71,7 +71,7 @@ def pregunta_02():
     knn.fit(X, y)
 
     # Pronostique el resultado para el conjunto de entrenamiento
-    y_pred = knn.predict(y)
+    y_pred = knn.predict(X)
 
     # Importe la función confusion_matrix de sklearn.metrics
     from sklearn.metrics import confusion_matrix
