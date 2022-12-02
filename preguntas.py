@@ -77,4 +77,4 @@ def pregunta_02():
     from sklearn.metrics import confusion_matrix
 
     # Retorne la matriz de confusión
-    return confusion_matrix(y, y_pred, normalize = None)
+    return confusion_matrix(y, y_pred)
